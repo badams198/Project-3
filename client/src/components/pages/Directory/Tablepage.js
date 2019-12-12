@@ -44,7 +44,7 @@ const TablePage = (props) => {
     ],
     rows: [
       {
-        'check': <MDBInput label=" " type="checkbox" id="checkbox6" />,
+        'check': <MDBInput href="/profile" label=" " type="checkbox" id="checkbox6" />,
         'first': 'Ricky',
         'last': 'Smith',
         'Location': 'Nashville',
@@ -96,7 +96,7 @@ const TablePage = (props) => {
     <MDBCard narrow>
 
       <MDBCardHeader ClassName="bg-info" className="view view-cascade gradient-card-header py-4 mx-6 mb-4">
-      <div className="white-text font-weight-bold text-uppercase text-center mx-6"> <a href="#" className="black-text  text-center mx-6">Contacts</a></div>
+      <div className="white-text font-weight-bold text-uppercase text-center mx-6"> <a href="/profile" className="black-text  text-center mx-6">Contacts</a></div>
         
       </MDBCardHeader>
     
